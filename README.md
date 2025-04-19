@@ -1,10 +1,10 @@
-# 📊 Sum of Multiples Calculator
+# ⌖ Sum of Multiples Calculator
 
 A simple interactive web app that calculates the **sum of all numbers below a user-defined limit** that are divisible by either of two user-defined multiples. Built with **HTML** and **Vanilla JavaScript** — no frameworks, no fluff.
 
 ---
 
-## 🚀 Features
+## 𖤝 Features
 
 - ⫘ Enter two ustom multiples (e.g., 3 and 5)
 - ⫘ Enter an upper limit (e.g., 1000)
@@ -14,15 +14,15 @@ A simple interactive web app that calculates the **sum of all numbers below a us
 
 ---
 
-## 🌐 Live Demo
+## ⚚ Live Demo
 
 [ 𝙻𝚒𝚟𝚎 𝙳𝚎𝚖𝚘 ](https://sen-zz.github.io/multiples-calculator/)
 
 ---
 
-## 📸 Screenshot
+## ࿇ Screenshot
 
-![screenshot](./screenshot.png)
+![ꜱᴄʀᴇᴇɴꜱʜᴏᴛ](./screenshot.png)
 
 ---
 
