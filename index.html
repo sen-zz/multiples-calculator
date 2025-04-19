@@ -3,40 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sum of Multiples Calculator</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-            background-color: #f4f4f4;
-        }
-        form {
-            background: #fff;
-            padding: 20px;
-            margin: 0 auto;
-            width: 300px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        input[type="number"], input[type="submit"] {
-            margin: 10px 0;
-            padding: 10px;
-            width: 90%;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
-        #result {
-            margin-top: 20px;
-            font-size: 18px;
-            color: #333;
-        }
-    </style>
+    <title>Sum of Multiples of x or y below</title>
 </head>
 <body>
-
-    <h1>Sum of Multiples Calculator</h1>
-
+    <h1>Sum of Multiples:</h1>
+    <p id="result"></p>
     <form id="multiplesForm">
         <label for="num1">Enter first multiple:</label><br>
         <input type="number" id="num1" name="num1" required><br>
@@ -47,15 +18,15 @@
         <label for="limit">Enter upper limit:</label><br>
         <input type="number" id="limit" name="limit" required><br>
 
-        <input type="submit" value="Calculate">
+        <input type="submit" value="Submit">
     </form>
 
-    <p id="result"></p>
+
 
     <script>
-        // Core sum calculation function
-        function sumOfMultiples(limit, mul1, mul2) {
-            let sum = 0;
+        //Main function
+        function sumOfMultiples (limit, mul1, mul2) {
+            let sum = 0;      
             for (let i = 0; i < limit; i++) {
                 if (i % mul1 === 0 || i % mul2 === 0) {
                     sum += i;
@@ -63,25 +34,31 @@
             }
             return sum;
         }
+        
+        //Handle Form Submission :3
+        document.querySelector('form').onsubmit = function(e) {
+            e.preventDefault();         // stops the form from refreshing/reloading the page.
 
-        // Handle form submission
-        document.getElementById('multiplesForm').onsubmit = function(e) {
-            e.preventDefault(); // Prevent page reload
 
+            //get the input VALUES from the form and convert them to numbers using +.
             const mul1 = +document.getElementById('num1').value;
             const mul2 = +document.getElementById('num2').value;
             const limit = +document.getElementById('limit').value;
 
-            if (!mul1 || !mul2 || !limit || mul1 <= 0 || mul2 <= 0 || limit <= 0) {
-                document.getElementById('result').textContent = '⚠️ Please enter valid positive numbers.';
-                return;
+
+            //Basic validation check: check that all numbers 
+            if (!mul1 || !mul2 || !limit) {
+                document.getElementById('result').textContent = 'Please enter valid numbers.';
+                return;     //exit the function if validation fails type shi
             }
 
+            // calling the function
             const result = sumOfMultiples(limit, mul1, mul2);
-            document.getElementById('result').textContent = 
-                `✅ The sum of multiples of ${mul1} and ${mul2} below ${limit} is: ${result}`;
-        };
-    </script>
 
+            // displaying the results in the page
+            document.getElementById('result').textContent = `Sum of multiples of ${mul1} and ${mul2} below ${limit} is: ${result}`;
+    }
+
+    </script>
 </body>
 </html>
