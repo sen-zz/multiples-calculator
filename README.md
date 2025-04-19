@@ -6,17 +6,17 @@ A simple interactive web app that calculates the **sum of all numbers below a us
 
 ## 🚀 Features
 
-- ✅ Enter two custom multiples (e.g., 3 and 5)
-- ✅ Enter an upper limit (e.g., 1000)
-- ✅ Click submit to see the sum instantly
-- ✅ Input validation with error messaging
-- ✅ Fully client-side, works in any browser
+- ⫘ Enter two ustom multiples (e.g., 3 and 5)
+- ⫘ Enter an upper limit (e.g., 1000)
+- ⫘ Click submit to see the sum instantly
+- ⫘ Input validation with error messaging
+- ⫘ Fully client-side, works in any browser
 
 ---
 
 ## 🌐 Live Demo
 
-[🔗 Live Demo](https://sen-zz.github.io/multiples-calculator/)
+[ 𝙻𝚒𝚟𝚎 𝙳𝚎𝚖𝚘 ](https://sen-zz.github.io/multiples-calculator/)
 
 ---
 
@@ -29,13 +29,13 @@ A simple interactive web app that calculates the **sum of all numbers below a us
 ## 🧠 How It Works
 
 1. User enters:
-   - First multiple
-   - Second multiple
-   - Upper limit
+   ⛧ First multiple
+   ⛧ Second multiple
+   ⛧ Upper limit
 2. On form submission:
-   - Inputs are validated
-   - Loops from 0 up to limit
-   - Adds numbers divisible by either multiple
+   ⛧ Inputs are validated
+   ⛧ Loops from 0 up to limit
+   ⛧ Adds numbers divisible by either multiple
 3. Displays the result in the DOM
 
 ---
