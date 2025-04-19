@@ -16,13 +16,13 @@ A simple interactive web app that calculates the **sum of all numbers below a us
 
 ## ⚚ Live Demo
 
-[ 𝙻𝚒𝚟𝚎 𝙳𝚎𝚖𝚘 ](https://sen-zz.github.io/multiples-calculator/)
+  [ 𝙻𝚒𝚟𝚎 𝙳𝚎𝚖𝚘 ](https://sen-zz.github.io/multiples-calculator/)
 
 ---
 
 ## 🗡 Screenshot
 
-![ꜱᴄʀᴇᴇɴꜱʜᴏᴛ](./screenshot.png)
+  ![ꜱᴄʀᴇᴇɴꜱʜᴏᴛ](./screenshot.png)
 
 ---
 
