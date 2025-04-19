@@ -20,13 +20,13 @@ A simple interactive web app that calculates the **sum of all numbers below a us
 
 ---
 
-## ࿇ Screenshot
+## 🗡 Screenshot
 
 ![ꜱᴄʀᴇᴇɴꜱʜᴏᴛ](./screenshot.png)
 
 ---
 
-## 🧠 How It Works
+## ♰ How It Works
 
 1. User enters:
    ⛧ First multiple
@@ -40,7 +40,7 @@ A simple interactive web app that calculates the **sum of all numbers below a us
 
 ---
 
-## 🛠️ Tech Stack
+## ⚠︎︎ Tech Stack
 
 | Tech      | Description         |
 |-----------|---------------------|
