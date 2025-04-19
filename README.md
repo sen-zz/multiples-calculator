@@ -18,7 +18,7 @@ A simple interactive web app that calculates the **sum of all numbers below a us
 
 > _(Optional: If deployed to GitHub Pages, insert the link below)_
 
-[🔗 Live Demo]([https://your-username.github.io/sum-of-multiples/](https://sen-zz.github.io/multiples-calculator/))
+[🔗 Live Demo]([https://sen-zz.github.io/multiples-calculator/])
 
 ---
 
